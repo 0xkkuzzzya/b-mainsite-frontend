@@ -62,7 +62,7 @@ export const SecondBlock = () => {
             <BlockText>21M $Bytecoin. Mining. Electricity. Halvings.</BlockText>
             <BlockDescription>
                 Miners mine Bytecoin with their virtual NFT GPUs, pay for virtual electricity with TRX.
-                TRX earned from electricity go to incentives for LP farmers of the Bytecoin / TRX pool on SunSwap.
+                TRX earned from electricity go to incentives for LP farmers of the Bytecoin / TRX pool on STON.fi.
             </BlockDescription>
         </BlockContainer>
     )

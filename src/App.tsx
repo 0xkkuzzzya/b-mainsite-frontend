@@ -10,6 +10,15 @@ import { Scheme } from './Components/Scheme';
 import { Footer } from './Components/Footer';
 
 const Container = styled.div`
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+`
+
+const Content = styled.div`
     width: 800px;
     height: 100%;
     display: flex;
@@ -26,13 +35,15 @@ const Container = styled.div`
 function App() {
 	return (
 		<Container>
-			<Header />
-			<MainContainer />
-			<SecondBlock />
-			<ThirdBlock />
-			<FourthBlock />
-			<FifthBlock />
-			<Scheme />
+			<Content>
+				<Header />
+				<MainContainer />
+				<SecondBlock />
+				<ThirdBlock />
+				<FourthBlock />
+				<FifthBlock />
+				<Scheme />
+			</Content>
 			<Footer />
 		</Container>
 	);
