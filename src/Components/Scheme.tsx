@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Scheme from '../assets/Scheme.webp'
+import SchemeImg from '../assets/SchemeImg.svg'
 import { useInView } from "react-intersection-observer";
 
 const Logo = styled.img <{ marginM: string, opacityM: string }>`
@@ -17,7 +17,7 @@ const Logo = styled.img <{ marginM: string, opacityM: string }>`
 `
 
 
-export const Block2Scheme = () => {
+export const Scheme = () => {
 
     const { ref, inView } = useInView({
         threshold: 0.3,
@@ -26,7 +26,7 @@ export const Block2Scheme = () => {
 
     return (
         <>
-            <Logo src={Scheme} ref={ref}
+            <Logo src={SchemeImg} ref={ref}
                 marginM={inView == true ? '60px' : '80px'}
                 opacityM={inView == true ? '1' : '0'} />
         </>
