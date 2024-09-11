@@ -31,6 +31,7 @@ const LinkText = styled.a`
     font-family: 'Metropolis', sans-serif;
     display: flex;
     align-items: center;
+    cursor: pointer;
 `
 
 const TgLogo = styled.img`
@@ -55,9 +56,9 @@ export const Footer = () => {
     return (
         <FooterContainer>
             <LinkBlock>
-                <LinkText><TgLogo src={TgLogoWhite} /> Telegram Announcements (ENG)</LinkText>
-                <LinkText><TgLogo src={TgLogoWhite} /> Новости в Telegram (RU)</LinkText>
-                <LinkText>Twitter</LinkText>
+                <LinkText href="https://t.me/bytecoin_news"><TgLogo src={TgLogoWhite} /> Telegram Announcements (ENG)</LinkText>
+                <LinkText href="https://t.me/bytecoin_ru"><TgLogo src={TgLogoWhite} /> Новости в Telegram (RU)</LinkText>
+                <LinkText href="https://x.com/bytecoin_ton"><TgLogo src={TgLogoWhite} /> Twitter</LinkText>
             </LinkBlock>
             <Signature>Bytecoin Foundation ©️ 2025</Signature>
         </FooterContainer>
