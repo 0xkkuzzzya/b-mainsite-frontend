@@ -5,7 +5,7 @@ import TgLogoWhite from '../assets/TgWhite.webp';
 const FooterContainer = styled.div`
     width: 100%;
     height: 200px;
-    background-color: #000;
+    background-color: #0d0d0d;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
