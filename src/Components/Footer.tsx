@@ -21,6 +21,10 @@ const LinkBlock = styled.div`
     justify-content: center;
     gap: 30px;
     margin-bottom: 15px;
+    @media (max-width: 800px) {
+        flex-direction: column;
+        gap: 10px;
+    }
 `
 
 const LinkText = styled.a`
